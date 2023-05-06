@@ -27,7 +27,7 @@
     </header>
 
     <form>
-        <div class="container">
+        <div class="container caja-datos">
             <div class="row">
                 <div class=" col-md-6 col-sm-12">
                     <label for="inputEmail4 col-sm-12">Fecha</label>
@@ -65,6 +65,18 @@
                     <div class=" col-md-12">
                         <label for="inputPassword4">Nacionalidad</label>
                         <input type="text" class="form-control input-pasajero" id="inputPassword4" placeholder=""required>
+                       
+                        <datalist id="paises">
+                        <option value="Argentina">
+                        <option value="Brasil">
+                        <option value="Colombia">
+                        <option value="México">
+                        <option value="Perú">
+                        <option value="España">
+                        <option value="Estados Unidos">
+                        <option value="Francia">
+                        <option value="Italia">
+                        </datalist>
                     </div>
                     <div class=" col-md-12">
                         <label for="inputPassword4">Estado Civil</label>
@@ -116,16 +128,17 @@
                 <h2>Vehiculo</h2>
                 <div class="row">
                     <div class="row col-md-6">
-                        
-                        <label for="tipo-vehiculo"  class="col-sm-3 col-form-label" >Tipo:
-                            <select id="paises" name="paises">
-                                <option value="">Selecciona un país</option>
-                                <option value="argentina">Argentina</option>
-                                <option value="brasil">Brasil</option>
-                                <option value="colombia">Colombia</option>
-                                <option value="mexico">México</option>
+                        <label for="inputPassword" class="col-sm-3 col-form-label">Tipo</label>
+                        <div class="col-sm-9">
+
+                            <select id="tipo_de _documento_de_identidad" class=" form-control input-pasajero" required>
+                                <option value="" disabled="" selected>Elija una opcion</option>
+                                <option value="Auto">Auto</option>
+                                <option value="Camioneta">Camioneta</option>
+                                <option value="Combi">Combi</option>
+                                <option value="Moto">Moto</option>
                             </select>
-                        </label>   
+                        </div>
                     </div>
                     <div class="row col-md-6">
                         <label for="inputPassword" class="col-sm-3 col-form-label">Marca</label>
