@@ -8,8 +8,22 @@ html{
 }
 
 h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+h2{
     font-size: 25px;
     text-align: center;
+}
+
+label{
+    font-size: 15px;
+}
+
+input{
+
 }
 
 form{
