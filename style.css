@@ -40,10 +40,6 @@ nav{
 }
 
 @media screen and (max-width: 768px) {
-    body{
-        background-color: rgb(43, 255, 0);
-    }
-
     .ordenar-grid {
         grid-template-columns: 1fr;
     }
@@ -54,7 +50,11 @@ nav{
 }
 
 .input-vehiculo{
-    
+    margin: 5px;
+}
+
+.input-conductor{
+    margin: 5px;
 }
 
 .lbl-condcutor{
