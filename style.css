@@ -5,6 +5,7 @@ body{
 }
 
 h1,h2{
+    color: blue;
     text-align: center;
 }
 
@@ -48,17 +49,20 @@ nav{
 .seguido{
     display: none;   
 }
+.input-pasajero{
+    margin: 10px;
+}
 
 .input-vehiculo{
-    margin: 5px;
+    margin: 10px;
 }
 
 .input-conductor{
-    margin: 5px;
+    margin: 10px;
 }
 
-.lbl-condcutor{
-    font-size: 13px;
+.lbl-conductor{
+    font-size: 15px;
 }
 
 
