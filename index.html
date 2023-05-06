@@ -17,17 +17,17 @@
         <div class="container">
             <nav class=" navbar-light bg-light ">
                 <a class="navbar-brand" href="#">
-                <img src="/Trabajo/img/escudo.png" width="45" height="50" class="d-inline-block align-top" alt="">
+                <img src="/Trabajo/img/escudo.png" width="50" height="70" class="d-inline-block align-top" alt="">
                 Complejo Fronterizo Santa Rosa
                 </a>
-                <h1 class="align-middle">Control Fronterizo</h1>
+                <h1 class="align-middle">RELACIÓN DE PASAJEROS</h1>
             </nav>
             
         </div>
     </header>
 
     <form>
-        <div class="container caja-datos">
+        <div class="container caja-datos sombra">
             <div class="row">
                 <div class=" col-md-6 col-sm-12">
                     <label for="inputEmail4 col-sm-12">Fecha</label>
@@ -53,7 +53,7 @@
 <br>
 <br>
 <br>
-        <div class="container  ordenar-grid">
+        <div class="container  ordenar-grid sombra-grid">
 
             <div class="container fila-doble item">
                 <h2>Pasajeros</h2>
@@ -64,8 +64,9 @@
                     </div>
                     <div class=" col-md-12">
                         <label for="inputPassword4">Nacionalidad</label>
-                        <input type="text" class="form-control input-pasajero" id="inputPassword4" placeholder=""required>
+                        <input type="text" class="form-control input-pasajero" id="inputPassword4" list="paises" placeholder="Escriba su pais"required>
                        
+                      
                         <datalist id="paises">
                         <option value="Argentina">
                         <option value="Brasil">
@@ -76,6 +77,10 @@
                         <option value="Estados Unidos">
                         <option value="Francia">
                         <option value="Italia">
+                        <option value="Chile">
+                        <option value="España">
+                        <option value="Alemania">   
+
                         </datalist>
                     </div>
                     <div class=" col-md-12">
@@ -188,7 +193,22 @@
                     <div class="row col-md-6">
                         <label for="inputPassword" class="col-sm-3 col-form-label">Pais</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control input-vehiculo" id="inputPassword" placeholder=""required>
+                            <input type="text" class="form-control input-vehiculo" id="paises" list="paises" placeholder="Escriba el pais" required>
+                            <datalist id="paises">
+                                <option value="Argentina">
+                                <option value="Brasil">
+                                <option value="Colombia">
+                                <option value="México">
+                                <option value="Perú">
+                                <option value="España">
+                                <option value="Estados Unidos">
+                                <option value="Francia">
+                                <option value="Italia">
+                                <option value="Chile">
+                                <option value="España">
+                                <option value="Alemania">   
+        
+                                </datalist>
                         </div>
                     </div>
                 </div>
@@ -218,14 +238,42 @@
                     <div class="row col-md-12">
                         <label for="inputPassword" class="col-sm-2 col-form-label">Profesion</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control input-conductor" id="inputPassword" placeholder=""required>
+                            <input type="text" class="form-control input-conductor" id="inputPassword" list="profesiones" placeholder="Escriba su Profesión"required>
+                            <datalist id="profesiones">
+                                <option value="Abogado">
+                                <option value="Arquitecto">
+                                <option value="Carpintero">
+                                <option value="Contador">
+                                <option value="Doctor">
+                                <option value="Ingeniero">
+                                <option value="Músico">
+                                <option value="Profesor">
+                                <option value="Programador">
+                                
+                              </datalist>
+                              
                         </div>
                     </div>
 
                     <div class="row col-md-12">
                         <label for="inputPassword" class="col-sm-2 col-form-label">Nacionalidad</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control input-conductor" id="inputPassword" placeholder=""required>
+                            <input type="text" class="form-control input-conductor" id="inputPassword" list="Nacionalidad" placeholder="Escriba su Nacionalidad"required>
+                            <datalist id="Nacionalidad">
+                                <option value="Argentina">
+                                <option value="Brasil">
+                                <option value="Colombia">
+                                <option value="México">
+                                <option value="Perú">
+                                <option value="España">
+                                <option value="Estados Unidos">
+                                <option value="Francia">
+                                <option value="Italia">
+                                <option value="Chile">
+                                <option value="España">
+                                <option value="Alemania">   
+        
+                                </datalist>
                         </div>
                     </div>
                 
@@ -239,7 +287,7 @@
                         <div class="row col-md-4">
                             <label for="inputPassword" class="col-sm-3 col-form-label lbl-conductor"">Fecha Nac</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control input-conductor" id="inputPassword" placeholder=""required>
+                                <input type="date" class="form-control input-conductor" id="inputPassword" placeholder=""required>
                             </div>
                         </div>
 
