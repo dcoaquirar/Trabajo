@@ -84,16 +84,17 @@ nav a img{
 .seguido{
     display: none;   
 }
+
 .input-pasajero{
-    margin: 10px;
+    margin: 8px;
 }
 
 .input-vehiculo{
-    margin: 10px;
+    margin: 8px;
 }
 
 .input-conductor{
-    margin: 10px;
+    margin: 8px;
 }
 
 .lbl-conductor{
