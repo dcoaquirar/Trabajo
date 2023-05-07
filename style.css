@@ -48,7 +48,8 @@ nav a img{
     grid-template-columns: 50% 50%;
     column-gap: 30px;
     row-gap: 15px;
-    padding: 20px
+    padding: 20px;
+    grid-template-areas: "div1" "div2" "div3";
 }
 
 .fila-doble{
@@ -59,12 +60,25 @@ nav a img{
     .ordenar-grid {
         grid-template-columns: 1fr;
     }
+
+    .item1{
+        grid-area: div3;
+    }
+
+    .item2{
+        margin: 0px;
+    }
+
     .rayo,.escudo{
         margin: 20px 0px;
     }
 
     .caja-datos{
         padding: 5px;
+    }
+
+    .table-resp{
+        overflow-x: auto;
     }
 }
 
@@ -128,4 +142,13 @@ button:hover {
     height: 50px;
     background-color: aqua;
     margin: 50px;
+}
+
+.boton-fin{
+    text-align: center;
+    
+}
+
+.btn-final-1{
+    text-align: start;
 }
